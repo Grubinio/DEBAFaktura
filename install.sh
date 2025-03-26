@@ -12,6 +12,9 @@ sudo apt update && sudo apt upgrade -y
 
 # --- MySQL installieren ---
 echo "[3/9] MySQL installieren..."
+sudo add-apt-repository universe
+sudo apt update
+
 sudo apt install mysql-server -y
 sudo systemctl enable mysql
 sudo systemctl start mysql
