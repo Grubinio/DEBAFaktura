@@ -8,11 +8,7 @@ set -e  # Script bei Fehler beenden
 echo "[1/9] System aktualisieren..."
 sudo apt update && sudo apt upgrade -y
 
-# --- Apache installieren ---
-echo "[2/9] Apache installieren..."
-sudo apt install apache2 -y
-sudo systemctl enable apache2
-sudo sy
+# Apache bereits installiert
 
 # --- MySQL installieren ---
 echo "[3/9] MySQL installieren..."
