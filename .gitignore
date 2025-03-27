@@ -1,0 +1,22 @@
+# Betriebssystem-spezifisch
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# temporäre Dateien
+*.tmp
+*.bak
+
+# Node.js-Projekt (falls du npm o.ä. nutzt)
+node_modules/
+dist/
+
+# IDE / Editor-Ordner
+.vscode/
+.idea/
+
+# Umgebungsdateien
+.env
+.env.*
